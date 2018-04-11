@@ -7,4 +7,15 @@ require_once __DIR__ . '/composer/autoload_real.php';
 # 最终结果是类 ClassLoader 的实例化对象
 # 类 ClassLoader 的主要作用是什么呢？
 
+/*
+    ClassLoader 类的主要作用：
+      
+      1、设置加载路径；
+      
+      2、引入类文件；
+      
+      3、查找文件‘
+      
+      4、等等
+*/
 return ComposerAutoloaderInit76b982e74f91b60dd43bcc25083d2d45::getLoader();

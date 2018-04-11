@@ -107,7 +107,7 @@ class ComposerAutoloaderInit76b982e74f91b60dd43bcc25083d2d45
 		// register 方法主要就是将 当前对象的 loadClass 作为 autoloader 追加到 spl 自动加载队列。
         $loader->register(true);
 
-		// 返回 $loader 对象
+		// 返回 $loader 对象给 autoload.php 
         return $loader;
     }
 }

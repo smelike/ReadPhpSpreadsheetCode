@@ -31,5 +31,5 @@ foreach ($paths as $path) {
     }
 }
 
-// 文件不存在，抛出异常。
+// 文件不存在，抛出异常 - throw new \Exception('exception message....')
 throw new \Exception('Composer autoloader could not be found. Install dependencies with `composer install` and try again.');
